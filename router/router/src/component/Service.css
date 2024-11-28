@@ -1,0 +1,97 @@
+.service-section{
+  padding:50px 0; 
+  color:black;
+  background-color: aliceblue; 
+  text-align: center;
+  background-image: url("https://www.itl.cat/pngfile/big/301-3017310_fast-food-wallpaper-for-restaurant.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+ 
+ }
+ 
+ 
+ .container1{
+  display: flex;
+  max-height: 0%;
+  flex-wrap: wrap;
+  justify-content: center;
+   row-gap:100px;
+   align-items: baseline;
+  column-gap: 100px;
+  font: italic;
+  
+ }
+ .service-section.container{
+  max-width: 1290px;
+  margin:auto;
+  
+ }
+ .description{
+   text-align: center;
+ }
+ .row{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+ }
+ .box11,.box21,.box31{
+  font-size: medium;
+  font:italic;
+  margin-top: 10px;
+  top:30px;
+  left:40px;
+  color:black;
+  text-align:center;
+  width:300px;
+  height:300px;
+  transition: duration 3s;
+  transition-timing-function:ease-out;
+  cursor:pointer;
+  border-radius: 20px;
+ }
+ .box11{
+  background: rgb(151, 151, 243);
+  color: black;
+ }.box11:hover{
+  background-color:rgb(44, 44, 95);
+  color: black;
+ }
+ .box21{
+  background:rgb(151, 151, 243);
+  color: black;
+ 
+ }.box21:hover{
+  background-color: rgb(44, 44, 95);
+ }
+ .box31{
+ 
+  background:rgb(151, 151, 243) ;
+  
+ }.box31:hover{ 
+  background-color:rgb(44, 44, 95);
+ }
+ .h{
+  color:rgb(104, 11, 11);
+  font-size: larger;
+  padding: 20px;
+  text-decoration: underline;
+ }
+ 
+ .Services{
+  color:rgb(3, 3, 12);
+  font-size: xx-large;
+  size: 110%;
+  font:bold;
+  text-align:center;
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.AxeaZBsDY76f_glSwwPCCQHaEK&pid=Api&P=0&h=180');
+  opacity: 1;
+ }
+ .description{
+  color:black;
+  font-size: large;
+  font:bold;
+  size:80%;
+  text-align:center;
+ /*  row-gap:30px; */
+ }

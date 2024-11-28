@@ -1,0 +1,131 @@
+/* Styling for the main container */
+.recipe-container {
+    display: flex;
+    flex:wrap;
+    background-color: gray;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border: 1px solid gray;
+    transition: transform 0.2s ease-in-out;
+}
+  .recipe-container:hover {
+    /* transform: scale(1.05); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box-shadow on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    background-color:#968080; 
+}
+/* Styling for Recipe Name */
+.recipe-name h1 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.recipe-container:hover .recipe-name h1 {
+  color: white; /* Change text color on hover */
+  font-weight: bold; /* Make the text bold on hover */
+}
+  .recipe-details{
+    text-align: center;
+    padding-right: 0%; 
+  }
+  
+  /* Styling for the left container (image) */
+  .left-container {
+    flex: 1;
+    padding: 200px;  /* Add padding to the left container */
+  }
+  
+  .img12 {
+
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in;
+    margin: 100px;
+    border: 2px solid black;
+  }
+  /* Add a hover effect to the image */
+.img12:hover {
+  transform: scale(1.1); /* Scale up the image on hover */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+  
+  /* Styling for the right container (recipe details) */
+  .right-container {
+    flex: 3;
+    padding: 400px; 
+  }
+  
+  /* Styling for Recipe Name */
+  .recipe-name h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  .section-container {
+    display: flex;
+    flex:wrap;
+    flex-direction: column;
+  }
+ /* Styling for Ingredients, Procedure, and Diet Info containers */
+.ingredients, .procedure, .diet-info {
+  display:flex;
+  flex:wrap;
+  margin-top: 200px;
+  padding: 20px; /* Adjust padding */
+  margin: 20px; /* Add margin all around the containers */
+  border: 1px solid #000; /* Black border */
+  border-radius: 8px;
+  height: auto; /* Remove fixed height */
+  width:600px;
+  background-color: beige;
+  transition: transform 0.2s ease-in-out;
+}
+
+.ingredients:hover, .procedure:hover, .diet-info:hover {
+ 
+  background-color: #ffecb3; 
+}
+  
+  /* Styling for Ingredients heading and text */
+  .ingredients h2 {
+    font-size: 20px;
+    color: #333;
+    /* margin: 0; */
+  }
+  
+  .ingredients p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Styling for Procedure heading and text */
+  .procedure h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .procedure p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+
+  .diet-info h2 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .diet-info p {
+    font-size: 16px;
+    color: #555;
+  }
+  
